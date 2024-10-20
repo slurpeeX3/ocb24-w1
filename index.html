@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        max-width: 1900px;
+      }
+      
+      .container {
+        background-color: pink;
+        height: 150px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        transition: 1s ease;
+      }
+
+      .container:hover {
+        background: beige;
+      }
+
+      .p1 {
+        color: brown;
+        font-size: 30px;
+        font-style: italic;
+      }
+
+      .content {
+        color: brown;
+        font-style: oblique;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+        font-size: x-large;
+        background: pink;
+        transition: 1s ease;
+        max-width: 60%;
+      }
+
+      .content:hover {
+        background-color: beige;
+      }
+
+      .content-cage {
+        background-color: pink;
+        transition: 1s ease;
+      }
+
+      .content-cage:hover {
+        background-color: beige;
+      }
+
+      .border-content {
+        border: 5px solid beige;
+        margin: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      
+      footer {
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
+        padding: 50px 0;
+        background-color: pink;
+        transition: 1s ease;
+      }
+
+      footer:hover {
+        background: beige;
+      }
+
+     
+      .deco-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Left image */
+      .deco-1 img {
+        max-width: 20%;
+        height: auto;
+        margin-left: 20px;
+      }
+
+      /* Right image */
+      .deco-2  {
+        max-width: 50%;
+        height: auto;
+        margin-right: 40px;
+      }
+
+      .border-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="p1">A Dream Comes True</p>
+    </div>
+
+    <div class="content-cage">
+      <div class="deco-1">
+        <!-- Left Image -->
+        <img src="./img/icons8-team-sxsxeQl41qc-unsplash.jpg" alt="Left Image">
+
+        <!-- Text in the middle -->
+        <div class="border-content">
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum earum
+            beatae dolorum rerum ex! Saepe placeat nesciunt sunt adipisci possimus
+            ipsam quisquam et blanditiis, doloremque id enim magni ratione repudiandae.</p>
+
+            <p>Voluptatum fugiat molestiae ducimus nostrum. Iure,
+            modi hic? Vitae autem accusamus quas distinctio sequi cum repellendus
+            perferendis temporibus.</p>
+
+            <p>Perferendis corrupti reprehenderit dolor, eveniet fuga corporis
+            deleniti, delectus recusandae, dignissimos itaque doloremque culpa!
+            Eveniet modi autem suscipit, dolorem expedita dignissimos ipsum.</p>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <img class="deco-2" src="./img/Cream and Black Minimalist Line Art Beauty Studio Logo.jpg" alt="Right Image">
+        
+      </div>  
+    </div>   
+
+    <footer class="footer">
+      SZ.net
+    </footer>  
+  </body>
+</html>
+
