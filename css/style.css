@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+#showcase {
+    background-image: url(../img/pexels-ollivves-1078983.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: black 3px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+}
+
+#showcase .button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+#sectionA {
+    padding: 20px;
+    background: whitesmoke;
+    text-align: center;
+}
+#sectionB {
+    padding: 20px;
+    background: beige;
+    text-align: center;
+}
+
+#sectionC {
+    display: flex;
+
+}
+
+#sectionC div{
+    padding: 20px;
+}
+
+#sectionC .box1, #sectionC .box3 {
+    background: whitesmoke;
+
+}
